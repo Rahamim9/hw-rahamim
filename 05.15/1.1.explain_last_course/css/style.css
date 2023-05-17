@@ -1,0 +1,30 @@
+.products-container {
+    display: grid;
+    width: 1000px;
+    margin: 0 auto;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr); /* prend les 1000px, tu les fractionne en 3 pour chaque fraction*/
+}
+.each-prod {
+    background-color: rgb(236, 236, 236);
+    padding: 20px;
+}
+
+
+/****************
+Code Meir
+
+.products-container {
+  display: grid;
+  width: 1000px;
+  margin: 0 auto;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.each-prod {
+    background-color: rgb(236, 236, 236);
+    padding: 20px;
+}
+
+******************/
