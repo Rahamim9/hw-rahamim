@@ -1,3 +1,6 @@
+/*
+My code
+*/
 const body = document.querySelector("body");
 var btn = document.createElement("button");
 body.append(btn);
